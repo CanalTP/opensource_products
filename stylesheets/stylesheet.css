@@ -122,8 +122,16 @@ section#main_content {
 }
 
 section.sub{
-    width:100%;
     display: inline-block;
+    margin-top: 5%;
+    width:100%;
+}
+
+h3 {
+    -webkit-transition: background 100ms linear;
+    -moz-transition: background 100ms linear;
+    -webkit-animation: fadeIn 1s ease;
+    -moz-animation: fadeIn 1s ease;
 }
 
 .project {
@@ -131,7 +139,7 @@ section.sub{
     width: 200px;
     height: 200px;
     margin: 1% 2% 1% 0;
-    padding: 35px 40px;
+    padding: 1.6rem;
     float: left;
     overflow: hidden;
     background-color: #efefef;
