@@ -89,7 +89,7 @@ p {
     margin: 0 0 20px;
 }
 
-.outer {
+#header_wrap, #footer_wrap {
     margin-top: 5%;
 }
 
@@ -124,7 +124,7 @@ section#main_content {
 
 section.sub{
     display: inline-block;
-    margin-top: 5%;
+    margin-top: 1%;
     width:100%;
 }
 
