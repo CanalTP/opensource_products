@@ -159,6 +159,13 @@ h3 {
     color: #298bbc;
 }
 
+.project.staytuned {
+    background-color: white;
+}
+    .project.staytuned h3{
+        margin-top: 3rem;
+    }
+
 #footer_wrap {
     display: inline-block;
     width: 90%;
