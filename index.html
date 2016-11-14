@@ -1,43 +1,90 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
+<head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Opensource products : ">
-
+    <meta name="description" content="Opensource products for building cool stuff with transport data">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="OpenSource, Transport, Data, Kisio Digital, Canaltp">
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel=icon href=images/favicon.png type="image/png">
+    <title>Opensource products @ Kisio Digital</title>
+</head>
 
-    <title>Opensource products</title>
-  </head>
+<body>
 
-  <body>
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">
+        <h1 id="project_title">Kisio digital opensource products</h1>
+        <h2 id="project_tagline">for building cool stuff with transport data</h2>
+        <img src="images/header_navitia_opensource.png" alt="squid illustration">
+    </header>
+</div>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/CanalTP/opensource_products">View on GitHub</a>
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+        <section class="sub">
+            <h3>Applications</h3>
+            <a href="https://github.com/CanalTP/navitia" class="project" target="_blank">
+                <h2>Navitia</h2>
+                <p class="language">C++, Python</p>
+                <p>Navitia is the open API for building cool stuff with mobility data.
+                </p>
+            </a>
 
-          <h1 id="project_title">Opensource products</h1>
-          <h2 id="project_tagline"></h2>
+            <a href="https://github.com/CanalTP/navitia-playground" class="project" target="_blank">
+                <h2>Navitia Playground</h2>
+                <p class="language">Javascript</p>
+                <p>Web UI for the navitia API.</p>
+            </a>
 
-        </header>
-    </div>
+            <a href="https://github.com/CanalTP/Chaos" class="project" target="_blank">
+                <h2>Chaos</h2>
+                <p class="language">Python</p>
+                <p>Chaos is the web service which can feed Navitia with real-time disruptions. It can work together with
+                    Kirin which can feed Navitia with real-time delays.</p>
+            </a>
+            <a href="https://github.com/CanalTP/mimirsbrunn" class="project" target="_blank">
+                <h2>Mímirsbrunn</h2>
+                <p class="language">Python</p>
+                <p>Mimirsbrunn is a geocoding service build upon Elasticsearch. It is an independent service, but
+                    Navitia uses it as it's global geocoding service.</p>
+            </a>
+        </section><!-- sub -->
+        <section class="sub">
+            <h3>Libraries</h3>
+            <a href="https://github.com/CanalTP/NavitiaComponent" class="project" target="_blank">
+                <h2>Navitia Component</h2>
+                <p class="language">PHP</p>
+                <p>A PHP Library for querying navitia webservice.</p>
+            </a>
+            <a href="https://github.com/CanalTP/libosmpbfreader" class="project" target="_blank">
+                <h2>libosm pbfreader</h2>
+                <p class="language">C++</p>
+                <p>A simple C++ library to read OpenStreetMap binary files.</p>
+            </a>
+            <a href="https://github.com/CanalTP" class="project staytuned" target="_blank">
+                <h3>Stay tuned !</h3>
+                <p>There is more to come...</p>
+            </a>
+        </section><!-- sub -->
+    </section>
+</div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+    <footer class="inner">
+        <p class="copyright">Opensource products maintained by <a href="http://www.canaltp.fr/" target="_blank">KISIO
+            Digital</a></p>
+        <p>
+            Follow us <a href="https://twitter.com/kisiodigital" target="_blank">on Twitter</a>
+        </p>
+        <small>Updated Nov 2016</small>
+    </footer>
+</div>
 
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Opensource products maintained by <a href="https://github.com/CanalTP">CanalTP</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-  </body>
+</body>
 </html>
