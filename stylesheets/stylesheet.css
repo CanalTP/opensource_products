@@ -121,6 +121,11 @@ section#main_content {
     margin: auto;
 }
 
+section.sub{
+	width:100%;
+	display: inline-block;
+}
+
 .project {
     display: block;
     width: 200px;
